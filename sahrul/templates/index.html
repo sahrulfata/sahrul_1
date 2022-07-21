@@ -1,0 +1,181 @@
+{% load static %}
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>My Portofolio | Sahrul</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <style>
+      .progress{
+        margin-left: 3rem;
+        margin-right: 3rem;
+      }
+      .text-progress{
+        margin-left: 3rem;
+      }
+    </style>
+  </head>
+  <body>
+  				<!-- navbar -->
+  <div class="collapse" id="navbarToggleExternalContent">
+  <div class="bg-dark p-4">
+    <h5 class="text-white h4 text-center">Selamat Datang di Website Saya</h5>
+    <p class="text-white text-center">Selamat Menikmati Suasana Website Pertama Saya.</p>
+  </div>
+</div>
+<nav class="navbar navbar-dark bg-dark sticky-top">
+  <div class="container-fluid">
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <ul class="nav justify-content-end">
+  <li class="nav-item">
+    <a class="nav-link active text-white" aria-current="page" href="#">Home</a>
+  </li>
+   <li class="nav-item">
+    <a class="nav-link active text-white" aria-current="page" href="#about">About</a>
+  </li>
+   <li class="nav-item">
+    <a class="nav-link active text-white" aria-current="page" href="#skill">Skill</a>
+  </li>
+   <li class="nav-item">
+    <a class="nav-link active text-white" aria-current="page" href="#contact">Contact</a>
+  </li>
+  </div>
+</nav>
+  				<!-- Akhir navbar -->
+  				<!-- Coursel -->
+  				<section id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active" data-bs-interval="10000">
+      <img src="{% static "slide-1.jpg"%}" class="d-block w-100" alt="..." height="550">
+      <div class="carousel-caption d-none d-md-block">
+        <h5 class="text-white">Hello,Saya Sahrul</h5>
+        <p class="text-white">Saya Adalah Seorang Programmer Muda</p>
+      </div>
+    </div>
+    <div class="carousel-item" data-bs-interval="2000">
+      <img src="{% static "slide-2.jpg"%}" class="d-block w-100" alt="..." height="550">
+      <div class="carousel-caption d-none d-md-block">
+        <h5 class="text-white">Hello,Saya Sahrul</h5>
+        <p class="text-white">Saya Adalah Seorang Programmer Muda</p>
+      </div>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</section>
+<!-- About me -->
+    <section class="about mt-xl-3" id="about">
+  <div class="container">
+   <div class="row">
+    <div class="col text-center">
+     <h2>About</h2>
+     <hr>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md text-justify">
+     <p>Hiduplah seperti sniper. Tak perlu menampakkan diri untuk disegani orang lain. Tak perlu mencari muka untuk mendapatkan perhatian orang lain. Cukup diam dan lakukan tujuan kita.</p>
+    </div>
+    <div class="col-md text-justify">
+     <p>Kesuksesan memang sebuah tujuan. Tapi bisa bermanfaat untuk sekitar adalah impian terbesar. Itulah kunci sukses dan definisi bahagia yang sesungguhnya.</p>
+    </div>
+   </div>
+  </div>
+  <svg width="100%" height="100%" id="svg" viewBox="0 0 1440 400" xmlns="http://www.w3.org/2000/svg" class="transition duration-300 ease-in-out delay-150"><defs><linearGradient id="gradient" x1="89%" y1="19%" x2="11%" y2="81%"><stop offset="5%" stop-color="#eb144c88"></stop><stop offset="95%" stop-color="#9900ef88"></stop></linearGradient></defs><path d="M 0,400 C 0,400 0,133 0,133 C 140,127.28571428571428 280,121.57142857142857 396,115 C 512,108.42857142857143 604,101 703,112 C 802,123 908,152.42857142857144 1032,159 C 1156,165.57142857142856 1298,149.28571428571428 1440,133 C 1440,133 1440,400 1440,400 Z" stroke="none" stroke-width="0" fill="url(#gradient)" class="transition-all duration-300 ease-in-out delay-150 path-0"></path><defs><linearGradient id="gradient" x1="89%" y1="19%" x2="11%" y2="81%"><stop offset="5%" stop-color="#eb144cff"></stop><stop offset="95%" stop-color="#9900efff"></stop></linearGradient></defs><path d="M 0,400 C 0,400 0,266 0,266 C 115.5,271.57142857142856 231,277.14285714285717 349,280 C 467,282.85714285714283 587.5,282.99999999999994 700,274 C 812.5,265.00000000000006 917,246.85714285714286 1039,244 C 1161,241.14285714285714 1300.5,253.57142857142856 1440,266 C 1440,266 1440,400 1440,400 Z" stroke="none" stroke-width="0" fill="url(#gradient)" class="transition-all duration-300 ease-in-out delay-150 path-1"></path></svg>
+ </section>
+  <!-- Akhir About -->
+<!-- Akhir About -->
+    <!-- progres -->
+    <!-- Contact -->
+    <section id="skill">
+    				<div class="container">
+    								<div class="row">
+    												<div class="col">
+    																<h2 class="text-center">My Skill</h2>
+                                    <hr>
+    												</div>
+    								</div>
+    				</div>
+            <p class="text-progress">Bahasa Inggris</p>
+            <div class="progress smt-2">
+              <div class="progress-bar " role="progressbar" aria-label="Basic example" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">25%</div>
+            </div>
+            <p class="text-progress">Bahasa Indonesia</p> 
+            <div class="progress mt-2">
+              <div class="progress-bar " role="progressbar" aria-label="Basic example" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">50%</div>
+            </div>
+           <p class="text-progress">Bahasa Arab</p> 
+            <div class="progress mt-2">
+              <div class="progress-bar " role="progressbar" aria-label="Basic example" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">75%</div>
+            </div>
+           <p class="text-progress">Teknik Informatika</p> 
+            <div class="progress mt-2">
+              <div class="progress-bar " role="progressbar" aria-label="Basic example" style="width: 100%" aria-valuenow="80%" aria-valuemin="0" aria-valuemax="100">80%</div>
+            </div>
+            <svg width="100%" height="100%" id="svg" viewBox="0 0 1440 400" xmlns="http://www.w3.org/2000/svg" class="transition duration-300 ease-in-out delay-150"><defs><linearGradient id="gradient" x1="89%" y1="19%" x2="11%" y2="81%"><stop offset="5%" stop-color="#eb144c88"></stop><stop offset="95%" stop-color="#9900ef88"></stop></linearGradient></defs><path d="M 0,400 C 0,400 0,133 0,133 C 110.82142857142858,139.39285714285714 221.64285714285717,145.78571428571428 345,156 C 468.35714285714283,166.21428571428572 604.2499999999999,180.25000000000003 720,171 C 835.7500000000001,161.74999999999997 931.3571428571429,129.21428571428572 1048,119 C 1164.642857142857,108.78571428571428 1302.3214285714284,120.89285714285714 1440,133 C 1440,133 1440,400 1440,400 Z" stroke="none" stroke-width="0" fill="url(#gradient)" class="transition-all duration-300 ease-in-out delay-150 path-0"></path><defs><linearGradient id="gradient" x1="89%" y1="19%" x2="11%" y2="81%"><stop offset="5%" stop-color="#eb144cff"></stop><stop offset="95%" stop-color="#9900efff"></stop></linearGradient></defs><path d="M 0,400 C 0,400 0,266 0,266 C 146.53571428571428,243.25 293.07142857142856,220.5 407,231 C 520.9285714285714,241.5 602.2500000000001,285.25 721,295 C 839.7499999999999,304.75 995.9285714285713,280.5 1122,270 C 1248.0714285714287,259.5 1344.0357142857142,262.75 1440,266 C 1440,266 1440,400 1440,400 Z" stroke="none" stroke-width="0" fill="url(#gradient)" class="transition-all duration-300 ease-in-out delay-150 path-1"></path></svg>
+    </section>
+    <!-- Akhir progres -->
+    <!--contact-->
+<section id="contact">
+<div class="container">
+  <div class="mb-3 row text-center">
+    <h2>Contact Us</h2>
+    <hr>
+  </div>
+  <div class="row justify-content-center">
+    <div class="col-md-6">
+      <form>
+          <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">Email</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+          </div>
+          <div class="mb-3">
+            <label for="exampleFormControlTextarea1" class="form-label">Message</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+          </div>
+
+          <div class="mb-3 form-check form-switch">
+            <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault">
+            <label class="form-check-label" for="flexSwitchCheckDefault">Subscribe to Niagahoster's newsletter.</label>
+          </div>
+          
+          <div class="mb-3">
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </div>
+          
+        </form>
+    </div>
+  </div>
+
+</div>
+</section>
+<!--Akhir Kontak-->
+ <!-- footer -->
+ <svg width="100%" height="100%" id="svg" viewBox="0 0 1440 400" xmlns="http://www.w3.org/2000/svg" class="transition duration-300 ease-in-out delay-150"><defs><linearGradient id="gradient" x1="89%" y1="19%" x2="11%" y2="81%"><stop offset="5%" stop-color="#eb144c88"></stop><stop offset="95%" stop-color="#9900ef88"></stop></linearGradient></defs><path d="M 0,400 C 0,400 0,133 0,133 C 55.33699759532806,142.0731707317073 110.67399519065611,151.14634146341461 180,139 C 249.32600480934389,126.85365853658537 332.6410168327036,93.48780487804879 416,103 C 499.3589831672964,112.51219512195121 582.7619374785296,164.90243902439025 648,174 C 713.2380625214704,183.09756097560975 760.3112332531776,148.90243902439025 825,134 C 889.6887667468224,119.09756097560975 971.9931295087599,123.4878048780488 1040,122 C 1108.00687049124,120.5121951219512 1161.7162487117828,113.14634146341461 1226,114 C 1290.2837512882172,114.85365853658539 1365.1418756441085,123.92682926829269 1440,133 C 1440,133 1440,400 1440,400 Z" stroke="none" stroke-width="0" fill="url(#gradient)" class="transition-all duration-300 ease-in-out delay-150 path-0"></path><defs><linearGradient id="gradient" x1="89%" y1="19%" x2="11%" y2="81%"><stop offset="5%" stop-color="#eb144cff"></stop><stop offset="95%" stop-color="#9900efff"></stop></linearGradient></defs><path d="M 0,400 C 0,400 0,266 0,266 C 68.16763998625902,288.8739264857437 136.33527997251804,311.7478529714875 195,309 C 253.66472002748196,306.2521470285125 302.8265200961868,277.88251459979386 378,276 C 453.1734799038132,274.11748540020614 554.3586396427345,298.722088629337 628,292 C 701.6413603572655,285.277911370663 747.7389213328753,247.22913088285813 811,243 C 874.2610786671247,238.77086911714187 954.6856750257643,268.3613878392305 1033,282 C 1111.3143249742357,295.6386121607695 1187.5183785640675,293.32531776021983 1255,288 C 1322.4816214359325,282.67468223978017 1381.2408107179663,274.3373411198901 1440,266 C 1440,266 1440,400 1440,400 Z" stroke="none" stroke-width="0" fill="url(#gradient)" class="transition-all duration-300 ease-in-out delay-150 path-1"></path></svg>
+  <footer class="bg-dark text-white">
+  <div class="container">
+   <div class="row">
+    <div class="col text-center pt-3">
+     <p>Copyright & copy; Sahrul 2022.</p>
+    </div>
+   </div>
+  </div>
+ </footer><!-- Akhir Footer -->
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+  </body>
+</html>
